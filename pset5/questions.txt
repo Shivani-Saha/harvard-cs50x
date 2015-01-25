@@ -1,0 +1,20 @@
+0.  A lung disease caused by the inhalation of very fine silica dust, 
+    causing inflammation in the lungs.
+1.  getrusage returns resource usage measures for who which can be one of the following:
+    1) return resource usage statistics for all calling processes, 
+       which is the sum of resources used by all threads in the process.
+    2) return resource usage statistics for all children of the calling process that have terminated and been waited for.       
+    3) return resource usage statistics for the calling thread.
+2.  16 members.
+3.  To calculate the number of seconds between those 2 values. 
+4.  All the words are read till the end of file.
+    Each word is read character by character from the file till the end of word. 
+    If the length exceeds the max length of word, the word is ignored.
+    If while reading the word, a digit occurs, all the next digits are skipped till the end of word or a character is found.
+    However, when a word is found it is checked and if the word is misspelled, misspellings is incremented.
+5.  Because fscanf would include words containing digits which are not actually words.
+6.  Because each word loaded and checked would be a constant word.
+7.  Hash table. Each node contains a word and a pointer to the next word. The table is in indexed according to the starting character of the word.
+8.  TODO
+9.  Nothing.
+10. TODO
